@@ -1,0 +1,86 @@
+express-node-starter : look for it tbdech mil sfer 
+
+https://github.com/odc-student/express-node-starter/blob/main/server.js
+
+npm init -y : pour generer pacakge.json
+
+Installer les dependances :
+ npm i cors 
+npm i express
+npm i dotenv 
+npm i mongoose
+npm i body-parser
+npm install jsonwebtoken
+
+
+Installer les dev dependances :
+npm i --save-dev nodemon
+
+npm i
+
+//on utilise nodemon in the production
+"start":"set NODE_ENV=production && node index.js",
+    "dev":"set NODE_ENV=development && nodemon index.js"
+
+
+
+npm run dev
+
+lien discord : http://discord.gg/PjpJ5pMF
+
+
+
+on va changer version mongoose adequatement pour le github du prof
+
+
+
+
+
+npx create-react-app frontend
+
+
+redux pour manager use-state : pour eviter l'echange du donnée du child au parent
+
+
+
+------
+utiliser l'image publié par le prof dans dockerhub
+
+
+docker run -p 3000:3000 salih1998/my-app
+
+docker pull salih1998/my-app:latest
+
+
+http://localhost:3000/
+
+
+docker run -d -p 3000:3000 salih1998/my-app : persist kol marra itskr ldata tetna7a
+
+
+=>The solution is to link the volume to the container
+
+
+docker volume create tode-td
+
+docker volume ls
+
+docker container ls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
